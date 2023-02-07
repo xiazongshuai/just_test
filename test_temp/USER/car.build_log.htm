@@ -1,0 +1,84 @@
+<html>
+<body>
+<pre>
+<h1>µVision Build Log</h1>
+<h2>Tool Versions:</h2>
+IDE-Version: ¦ÌVision V5.28.0.0
+Copyright (C) 2019 ARM Ltd and ARM Germany GmbH. All rights reserved.
+License Information: shuai Lenovo, xia, LIC=32B1Q-N1MMG-KPQZY-IMMN5-0NQ04-LBASE
+ 
+Tool Versions:
+Toolchain:       MDK-ARM Plus  Version: 5.28.0.0
+Toolchain Path:  E:\software\MDK5\mdk528a\ARM\ARMCC\Bin
+C Compiler:      Armcc.exe V5.06 update 6 (build 750)
+Assembler:       Armasm.exe V5.06 update 6 (build 750)
+Linker/Locator:  ArmLink.exe V5.06 update 6 (build 750)
+Library Manager: ArmAr.exe V5.06 update 6 (build 750)
+Hex Converter:   FromElf.exe V5.06 update 6 (build 750)
+CPU DLL:         SARMCM3.DLL V5.28.0.0
+Dialog DLL:      DARMSTM.DLL V1.68.0.0
+Target DLL:      Segger\JL2CM3.dll V2.99.36.0
+Dialog DLL:      TCM.DLL V1.36.2.0
+ 
+<h2>Project:</h2>
+E:\personal\test_temp1\test_temp\USER\car.uvprojx
+Project File Date:  02/06/2023
+
+<h2>Output:</h2>
+*** Using Compiler 'V5.06 update 6 (build 750)', folder: 'E:\software\MDK5\mdk528a\ARM\ARMCC\Bin'
+Build target 'car'
+compiling main.c...
+..\SYSTEM\systick.h(6): warning:  #1295-D: Deprecated declaration systick_init - give arg types
+  void systick_init();
+..\HARDWARE\ir_io_check.h(19): warning:  #1295-D: Deprecated declaration ir_io_init - give arg types
+  void ir_io_init();
+..\HARDWARE\ir_io_check.h(20): warning:  #1295-D: Deprecated declaration ir_io_check - give arg types
+  void ir_io_check();
+..\HARDWARE\wheel_pid.h(39): warning:  #1295-D: Deprecated declaration wheel_init - give arg types
+  void wheel_init();
+..\HARDWARE\wheel_pid.h(40): warning:  #1295-D: Deprecated declaration wheel_tick - give arg types
+  void wheel_tick();
+..\HARDWARE\wheel_pid.h(42): warning:  #1-D: last line of file ends without a newline
+  #endif
+..\HARDWARE\motor.h(9): warning:  #1295-D: Deprecated declaration motor_dir_io_init - give arg types
+  void motor_dir_io_init();
+..\HARDWARE\motor.h(17): warning:  #1-D: last line of file ends without a newline
+  #endif
+..\HARDWARE\soft_iic.h(32): warning:  #1295-D: Deprecated declaration soft_iic_io_init - give arg types
+  void soft_iic_io_init();
+..\HARDWARE\hc_sr04.h(18): warning:  #1295-D: Deprecated declaration get_hc_sr04_distance - give arg types
+  int get_hc_sr04_distance();
+..\HARDWARE\hc_sr04.h(23): warning:  #1-D: last line of file ends without a newline
+  #endif
+..\HARDWARE\usart.h(14): warning:  #1-D: last line of file ends without a newline
+  #endif
+..\HARDWARE\oled.h(24): warning:  #1-D: last line of file ends without a newline
+  #endif
+..\HARDWARE\key.h(14): warning:  #1-D: last line of file ends without a newline
+  #endif
+..\HARDWARE\led.h(17): warning:  #1-D: last line of file ends without a newline
+  #endif
+..\HARDWARE\drv_init.h(21): warning:  #1-D: last line of file ends without a newline
+  #endif
+main.c: 16 warnings, 0 errors
+linking...
+Program Size: Code=6440 RO-data=268 RW-data=216 ZI-data=1336  
+FromELF: creating hex file...
+".\car.axf" - 0 Error(s), 16 Warning(s).
+
+<h2>Software Packages used:</h2>
+
+Package Vendor: Keil
+                http://www.keil.com/pack/Keil.STM32F1xx_DFP.2.3.0.pack
+                Keil.STM32F1xx_DFP.2.3.0
+                STMicroelectronics STM32F1 Series Device Support, Drivers and Examples
+
+<h2>Collection of Component include folders:</h2>
+  .\RTE\_car
+  E:\software\MDK5\mdk528a\Keil\STM32F1xx_DFP\2.3.0\Device\Include
+
+<h2>Collection of Component Files used:</h2>
+Build Time Elapsed:  00:00:04
+</pre>
+</body>
+</html>
